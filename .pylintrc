@@ -1,0 +1,12 @@
+[MASTER]
+ignore=.cache,.git,.idea,__pycache__
+
+[MESSAGES CONTROL]
+disable=missing-docstring,too-few-public-methods,invalid-name
+
+[FORMAT]
+max-line-length=160
+expected-line-ending-format=LF
+
+[TYPECHECK]
+ignored-modules=sublime,sublime_plugin

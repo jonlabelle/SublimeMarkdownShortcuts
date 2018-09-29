@@ -1,0 +1,69 @@
+[
+    // ------------------------------------
+    // toggle bold
+    // ------------------------------------
+
+    {
+        "keys": ["super+alt+b"],
+        "command": "bold",
+        "context": [{"key": "selector", "operator": "equal", "operand": "text.html.markdown"}]
+    },
+
+    // ------------------------------------
+    // toggle italic
+    // ------------------------------------
+
+    {
+        "keys": ["super+alt+i"],
+        "command": "italic",
+        "context": [{"key": "selector", "operator": "equal", "operand": "text.html.markdown"}]
+    },
+
+    // ------------------------------------
+    // headings
+    // ------------------------------------
+
+    {
+        "keys": ["super+alt+2"],
+        "command": "heading2",
+        "context": [{"key": "selector", "operator": "equal", "operand": "text.html.markdown"}]
+    },
+
+    {
+        "keys": ["super+alt+3"],
+        "command": "heading3",
+        "context": [{"key": "selector", "operator": "equal", "operand": "text.html.markdown"}]
+    },
+
+    {
+        "keys": ["super+alt+4"],
+        "command": "heading4",
+        "context": [{"key": "selector", "operator": "equal", "operand": "text.html.markdown"}]
+    },
+
+    // ------------------------------------
+    // smart lists
+    // ------------------------------------
+
+    {
+        "keys": ["shift+alt+enter"],
+        "command": "smart_list",
+        "context": [
+            {"key": "selector", "operator": "equal", "operand": "text.html.markdown"},
+            {"key": "preceding_text", "operator": "regex_contains", "operand": "^\\s*([-+\\**]|\\d+\\.+)\\s+"}
+        ]
+    },
+
+    // ------------------------------------
+    // smart_list
+    // ------------------------------------
+
+    {
+        "keys": ["shift+alt+enter"],
+        "command": "smart_list",
+        "context": [
+            {"key": "selector", "operator": "equal", "operand": "text.html.markdown"},
+            { "key": "selector", "operator": "equal", "operand": "markup.list"}
+        ]
+    }
+]
