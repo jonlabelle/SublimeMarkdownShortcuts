@@ -15,7 +15,8 @@ git clone https://github.com/jonlabelle/SublimeMarkdownShortcuts.git "MarkdownSh
 
 ### Manual Download
 
-1. Download the zip to your Sublime Text 2 or 3 Packages directory.
+1. Download the [zip](https://github.com/jonlabelle/SublimeMarkdownShortcuts/archive/master.zip)
+   to your Sublime Text 2 or 3 Packages directory.
 2. Rename the extracted directory from `SublimeMarkdownShortcuts-master` to
    `MarkdownShortcuts`.
 
