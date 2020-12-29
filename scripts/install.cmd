@@ -10,9 +10,6 @@ pushd "%SCRIPTSDIR%" && pushd ..
 echo. > Install pip requirements
 pip install -r requirements.txt
 
-echo. > Install npm packages
-npm install -g markdownlint-cli
-
 popd && popd
 
 echo.

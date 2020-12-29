@@ -54,17 +54,11 @@ install_pip_requirements() {
     "${PIPCMD}" install -r requirements.txt
 }
 
-install_npm_packages() {
-    echo && echo '> Install npm packages'
-    npm install -g markdownlint-cli
-}
-
 
 main() {
     cd_project_root
     resolve_pip_cmd "$(python_major_version)"
     install_pip_requirements
-    install_npm_packages
     cd_previous_working_dir
 
     echo && echo 'Finished.'
