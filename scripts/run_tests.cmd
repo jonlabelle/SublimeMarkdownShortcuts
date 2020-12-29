@@ -15,10 +15,6 @@ echo.
 echo. > Run flake8
 flake8 .
 
-echo.
-echo. > Run pylint
-pylint MarkdownShortcuts.py
-
 popd && popd
 
 echo.
