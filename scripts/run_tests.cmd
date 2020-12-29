@@ -19,10 +19,6 @@ echo.
 echo. > Run pylint
 pylint MarkdownShortcuts.py
 
-echo.
-echo. > Run markdownlint
-markdownlint .
-
 popd && popd
 
 echo.

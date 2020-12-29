@@ -38,19 +38,12 @@ run_pylint() {
     pylint MarkdownShortcuts.py
 }
 
-run_markdownlint() {
-    echo '> Run markdownlint'
-    markdownlint .
-    echo 'Markdown looks good.' && echo
-}
-
 
 main() {
     cd_project_root
     # run_pytest
     run_flake8
     run_pylint
-    run_markdownlint
     cd_previous_working_dir
 
     echo & echo 'Finished.'
