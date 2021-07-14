@@ -1,6 +1,5 @@
 # Sublime Text Markdown Shortcuts
 
-[![Travis CI Build Status](https://travis-ci.com/jonlabelle/SublimeMarkdownShortcuts.svg?branch=master)](https://travis-ci.com/jonlabelle/SublimeMarkdownShortcuts)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/kti7vlg0asfbbnlb/branch/master?svg=true)](https://ci.appveyor.com/project/jonlabelle/sublimemarkdownshortcuts)
 
 > A few useful Markdown keyboard shortcuts - largely taken from the
