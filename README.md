@@ -1,7 +1,5 @@
 # Sublime Text Markdown Shortcuts
 
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/kti7vlg0asfbbnlb/branch/master?svg=true)](https://ci.appveyor.com/project/jonlabelle/sublimemarkdownshortcuts)
-
 > A few useful Markdown keyboard shortcuts - largely taken from the
 > [MarkdownWriter](https://packagecontrol.io/packages/MarkdownWriter) plug-in.
 
